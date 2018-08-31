@@ -19,7 +19,7 @@ var PORT = 80;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('CloudSec UKI K8S Docker App');
+  res.send('CloudSec UKI K8S Docker App - New');
 });
 
 app.listen(PORT)
